@@ -1,0 +1,601 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+ background-color: #0E0E0E;
+}
+
+
+/* <!-- dégradé de couleur sur la page --> */
+main > .Àpropos{
+    
+    background: linear-gradient(to bottom, rgba(14, 14, 14, 0.5), rgba(194, 33, 33, 0.5));
+}
+
+.container{
+    
+    background: #0E0E0E;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav {
+    
+    z-index: 5;
+    background: rgba(46, 46, 46, 0.6);
+    position: absolute;
+    align-items: center;
+    
+    border-radius: 100px;
+    padding: 3px;
+    top: 50px;
+    
+    
+
+}
+
+
+
+nav ul li {
+    
+    
+    font-family: 'Poppins';
+    margin: 0 auto;
+    backdrop-filter: blur(2px);
+    display: inline-block;
+    padding: 9px 25px;
+    margin: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+
+header h1 {
+    
+    margin-top: 298px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 75px;
+    font-family: 'MADE Outer Sans';
+    color: #C93B3B;
+    text-align: center;
+    
+    
+    
+}
+
+header > h2 {
+    margin-top: 0px;
+    
+    
+    display: flex;
+    justify-content: right;
+    width: 465px;
+    
+    left: 55px;
+    position: relative;
+    font-size: 16px;
+    font-family: 'MADE Outer Sans';
+    color: white;
+    text-align: right;
+    }
+
+
+
+
+
+header{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url(../img/image\ 16.png);
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+
+header > .tema {
+    width: 30px;
+    margin-left: 85%;
+    margin-top: 70px;
+    display: flex;
+    cursor: pointer;
+}
+
+.Accueil {
+    
+    background-color: #0E0E0E;
+    
+
+    
+}
+
+.Accueil > img {
+    border-radius: 20px;
+    width: 282px;
+    height: 315px;
+    margin-top: 135px;
+    margin-left: 70%;
+    
+}
+
+.Accueil > p {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 450px;
+    height: 156px;
+    margin-left: 15%;
+    margin-top: 255px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins';
+    
+    
+    
+    
+}
+
+.Accueil > h2 {
+    color: #C93B3B;
+    display: flex;
+    position: absolute;
+    
+    margin-left: 15%;
+    margin-top: 200px;
+    font-family: 'MADE Outer Sans';
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+.Àpropos {
+    
+    background-color: #0E0E0E;
+    
+}
+
+.Àpropos > img {
+    border-radius: 20px;
+    width: 282px;
+    height: 315px;
+    margin-top: 335px;
+    margin-left: 14%;
+    
+}
+
+.Àpropos > p {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 450px;
+    height: 156px;
+    right: 10%;
+    margin-top: 455px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-align: right;
+    
+    
+    
+}
+
+.Àpropos > h2 {
+    color: #C93B3B;
+    display: flex;
+    position: absolute;
+    
+    right: 10%;
+    margin-top: 400px;
+    font-family: 'MADE Outer Sans';
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+
+
+
+.notes > img{
+    display: flex;
+    left: 0 auto;
+    right: 0 auto;
+    width: 1050px;
+height: 350px;
+align-items: center;
+justify-content: center;
+border-radius: 30px;
+margin-top: 550px;
+}
+
+
+
+.maison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    width: 230px;
+    height: 215px;
+}
+
+.maison img {
+    margin-bottom: 120px;
+    width: 250px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #0E0E0E;
+
+}
+
+footer > .social {
+
+    margin-top: 85px;
+    align-items: center;
+    display: flex;
+    width: 145px;
+
+
+}
+
+footer > ul {
+text-align: center;
+padding: 5px;
+display: inline;
+padding-top: 25px;
+margin-left: 50px;
+
+  
+}
+
+/* <!-- responsive --> */
+
+@media screen and (max-width:1075px) {
+ .notes img {
+    width: 850px;
+height: 350px;
+ }
+
+ .maison img {
+    width: 100px;
+    height: 100px;
+ }
+ 
+ .Accueil > img {
+    border-radius: 20px;
+    width: 232px;
+    height: 265px;
+    margin-top: 135px;
+    margin-left: 70%;
+    
+}
+    
+.Accueil > p {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 400px;
+    height: 106px;
+    margin-left: 15%;
+    margin-top: 255px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins';
+    
+    
+    
+    
+}
+.Accueil > h2 {
+    color: #C93B3B;
+    display: flex;
+    position: absolute;
+    
+    margin-left: 15%;
+    margin-top: 200px;
+    font-family: 'MADE Outer Sans';
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+.Àpropos > img {
+    border-radius: 20px;
+    width: 232px;
+    height: 265px;
+    margin-top: 335px;
+    margin-left: 14%;
+    
+}
+.Àpropos > p {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 400px;
+    height: 106px;
+    right: 10%;
+    margin-top: 455px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-align: right;
+    
+    
+    
+}
+.Àpropos > h2 {
+    color: #C93B3B;
+    display: flex;
+    position: absolute;
+    
+    right: 10%;
+    margin-top: 400px;
+    font-family: 'MADE Outer Sans';
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+}
+
+
+/* <!-- responsive --> */
+@media screen and (max-width:880px) {
+    .notes img {
+        width: 750px;
+    height: 200px;
+     }
+
+      
+ .Accueil > img {
+    border-radius: 20px;
+    width: 182px;
+    height: 215px;
+    margin-top: 170px;
+    margin-left: 70%;
+    
+}
+.Accueil > p {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 370px;
+    height: 56px;
+    margin-left: 15%;
+    margin-top: 255px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Poppins';
+}
+
+.Accueil > h2 {
+    color: #C93B3B;
+    display: flex;
+    position: absolute;
+    
+    margin-left: 15%;
+    margin-top: 200px;
+    font-family: 'MADE Outer Sans';
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+.Àpropos > img {
+    border-radius: 20px;
+    width: 182px;
+    height: 215px;
+    margin-top: 340px;
+    margin-left: 14%;
+    
+}
+.Àpropos > p {
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 370px;
+    height: 56px;
+    right: 10%;
+    margin-top: 455px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Poppins';
+    text-align: right;
+    
+    
+    
+}
+.Àpropos > h2 {
+    color: #C93B3B;
+    display: flex;
+    position: absolute;
+    
+    right: 10%;
+    margin-top: 400px;
+    font-family: 'MADE Outer Sans';
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+}
+
+@media screen and (max-width:780px) {
+    .notes img {
+        display: none;
+        width: 750px;
+    height: 200px;
+     }
+     
+     
+     .Accueil > img {
+        display: flex;
+        position: relative;
+        border-radius: 20px;
+        width: 382px;
+        height: 415px;
+        top: 160px;
+        margin: auto;
+        
+        
+        
+    }
+    .Accueil > p {
+        display: flex;
+        position: relative;
+        
+        color: white;
+        width: 370px;
+        height: 56px;
+        margin-right: auto;
+        margin: auto;
+        margin-top: 15px;
+        text-align: center;
+        
+        
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: 'Poppins';
+    }
+    
+   
+    .Accueil > h2 {
+        color: #C93B3B;
+        display: flex;
+        position: relative;
+        width: 500px;
+        height: 56px;
+        margin: auto;
+        
+        margin-top: 106px;
+        
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'MADE Outer Sans';
+        font-weight: 600;
+        font-size: 35px;
+        
+    }
+    .Àpropos > img {
+        display: flex;
+        position: relative;
+        border-radius: 20px;
+        width: 382px;
+        height: 415px;
+        
+        margin-top: 104px;
+        margin-left: auto;
+         
+        
+    }
+    .Àpropos > p {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        right: auto;
+        left: auto;
+        width: 370px;
+        height: 56px;
+        color: white;
+        margin-top: 70px;
+        
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: 'Poppins';
+        
+        
+        
+        
+    }
+    .Àpropos > h2 {
+        color: #C93B3B;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        left: auto;
+        right: auto;
+        
+        
+        
+        
+        
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        font-family: 'MADE Outer Sans';
+    
+        
+        
+    }
+    }
+   
+header h1 {
+    
+    margin-top: 298px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 55px;
+    font-family: 'MADE Outer Sans';
+    color: #C93B3B;
+    text-align: center;
+    
+    
+    
+}
+
+header > h2 {
+    margin-top: 0px;
+    
+    
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    left: 2px;
+    margin-left: auto;
+    position: relative;
+    font-size: 16px;
+    font-family: 'MADE Outer Sans';
+    color: white;
+    text-align: center;
+    }
+      
+
+    
+
+      
+
+  
